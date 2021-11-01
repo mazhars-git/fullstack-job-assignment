@@ -7,14 +7,18 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './Components/Home/Home';
+import Home from './Components/Home/Home/Home';
+import Dashboard from './Components/Dashboard/Dashboard';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route>
+        <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/dashboard">
+          <Dashboard />
         </Route>
       </Switch>
     </Router>
