@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { Container } from 'react-bootstrap';
-import Sidebar from '../Sidebar/Sidebar';
+import Sidebar from './Sidebar/Sidebar';
 
 
 
@@ -11,7 +11,7 @@ const Dashboard = () => {
         <section>
             <Container fluid>
                 <div className="row">
-                    <div className="col-md-4 bg-dark">
+                    <div className="col-md-4 sidebar-background">
                         <Sidebar />
                     </div>
 

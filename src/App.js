@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
@@ -9,6 +8,8 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home/Home';
 import Dashboard from './Components/Dashboard/Dashboard';
+import AddEmployee from './Components/Dashboard/AddEmployee/AddEmployee';
+import AddReview from './Components/Dashboard/AddReview/AddReview';
 
 function App() {
   return (
@@ -19,6 +20,12 @@ function App() {
         </Route>
         <Route path="/dashboard">
           <Dashboard />
+        </Route>
+        <Route path="/addEmployee">
+          <AddEmployee />
+        </Route>
+        <Route path="/addReview">
+          <AddReview />
         </Route>
       </Switch>
     </Router>
