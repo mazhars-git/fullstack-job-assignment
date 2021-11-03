@@ -10,6 +10,7 @@ import Home from './Components/Home/Home/Home';
 import Dashboard from './Components/Dashboard/Dashboard';
 import AddEmployee from './Components/Dashboard/AddEmployee/AddEmployee';
 import AddReview from './Components/Dashboard/AddReview/AddReview';
+import AllEmployee from './Components/Dashboard/AllEmployee/AllEmployee';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/addEmployee">
           <AddEmployee />
+        </Route>
+        <Route path="/employees">
+          <AllEmployee />
         </Route>
         <Route path="/addReview">
           <AddReview />

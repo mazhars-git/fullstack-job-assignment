@@ -11,11 +11,11 @@ const Dashboard = () => {
         <section>
             <Container fluid>
                 <div className="row">
-                    <div className="col-md-4 sidebar-background">
+                    <div className="col-md-3 sidebar-background">
                         <Sidebar />
                     </div>
 
-                    <div className="col-md-8">
+                    <div className="col-md-9">
                     
                     </div>
                 </div>

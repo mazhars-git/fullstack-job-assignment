@@ -1,0 +1,6 @@
+.employee-table{
+    background-color: rgb(173, 173, 255);
+}
+.employee-table tr{
+    border: 1px solid black;
+}

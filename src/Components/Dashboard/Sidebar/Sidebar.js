@@ -11,14 +11,14 @@ const Sidebar = () => {
             <div className="text-white">
                 <a href="#"> <FontAwesomeIcon icon={faCoffee} /> Welcome to Dashboard!! </a>
                 <ul>
-                    <li><a href="/employee"><FontAwesomeIcon icon={faUsers} /> Employees</a></li>
+                    <li><a href="/employees"><FontAwesomeIcon icon={faUsers} /> Employees</a></li>
                     <li><a href="/addReview"><FontAwesomeIcon icon={faPlusSquare} /> Add Review</a></li>
                     <li><a href="/addEmployee"><FontAwesomeIcon icon={faUserPlus} /> Add Employee</a></li>
                     <li><a href="#"><FontAwesomeIcon icon={faGripHorizontal} /> Manager</a></li>
                 </ul>
             </div>
         </div>
-        <div className="mt-auto">
+        <div className="mt-auto py-5">
             <a href="/"><FontAwesomeIcon icon={faSignOutAlt} />Back To Home</a>
         </div>
     </Container>
