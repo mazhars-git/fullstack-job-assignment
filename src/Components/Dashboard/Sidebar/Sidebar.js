@@ -18,7 +18,7 @@ const Sidebar = () => {
                 </ul>
             </div>
         </div>
-        <div>
+        <div className="mt-auto">
             <a href="/"><FontAwesomeIcon icon={faSignOutAlt} />Back To Home</a>
         </div>
     </Container>

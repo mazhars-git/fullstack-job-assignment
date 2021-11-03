@@ -1,0 +1,24 @@
+.header{
+    background-color: rgb(51, 65, 73);
+    min-height: 100vh;
+    
+}
+.content-box{
+    margin-top: 14%;
+}
+.content-box h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+.content-box .btn-brand{
+    padding: 10px 30px;
+    background: rgb(67, 129, 245);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+.content-box .btn-brand:hover{
+    border: 1px solid #fff;
+}
