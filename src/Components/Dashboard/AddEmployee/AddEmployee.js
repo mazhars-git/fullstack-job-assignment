@@ -3,6 +3,17 @@ import { Container } from 'react-bootstrap';
 import Sidebar from '../Sidebar/Sidebar';
 
 const AddEmployee = () => {
+
+    const handleAdd = () => {
+        fetch('http://localhost:4000/addEmployee', {
+            method: 'POST',
+            headers: {
+                'Content-Type' : 'application/json'
+            },
+            body: JSON.stringify()
+        })
+    }
+
     return (
         <Container fluid>
             <div className="row">
@@ -35,7 +46,7 @@ const AddEmployee = () => {
                                     <input type="file" class="form-control" aria-label="file example" required />
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary" type="submit">Add Review</button>
+                                    <button onClick={handleAdd} class="btn btn-primary" type="submit">Add Review</button>
                                 </div>
                             </form>
                         </div>
