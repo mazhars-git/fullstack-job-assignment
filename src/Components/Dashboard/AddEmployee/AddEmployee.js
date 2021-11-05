@@ -45,11 +45,12 @@ const AddEmployee = () => {
     return (
         <Container fluid>
             <div className="row">
-                <div className="col-md-4 sidebar-background">
+                <div className="col-md-3 sidebar-background">
                     <Sidebar />
                 </div>
-                <div className="col-md-8">
-                <div className="container">
+                <div className="col-md-9">
+                <div className="container data-table">
+                        <h1 className="text-center text-white">Add Employee</h1>
                         <div className="row">
                             <form onSubmit={handleSubmit} class="row g-3">
                                 <div class="col-md-6">

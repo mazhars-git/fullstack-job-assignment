@@ -1,6 +1,8 @@
-.employee-table{
+.data-table{
     background-color: rgb(173, 173, 255);
+    margin-left: 20px;
+    padding: 10px 20px;
 }
-.employee-table tr{
+.data-table tr{
     border: 1px solid black;
 }

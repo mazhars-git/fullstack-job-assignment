@@ -6,13 +6,14 @@ const AddReview = () => {
     return (
         <Container fluid>
             <div className="row">
-                <div className="col-md-4 sidebar-background">
+                <div className="col-md-3 sidebar-background">
                     <Sidebar />
                 </div>
 
-                <div className="col-md-8">
-                    <div className="container">
+                <div className="col-md-9">
+                    <div className="container data-table">
                         <div className="row">
+                            <h1 className="text-white text-center">Add Your Review</h1>
                             <form class="row g-3">
                                 <div class="col-md-6">
                                     <label for="validationDefault01" class="form-label">First name</label>
