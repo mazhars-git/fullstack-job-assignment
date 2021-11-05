@@ -1,8 +1,10 @@
 .data-table{
-    background-color: rgb(173, 173, 255);
+    background-color: rgb(52, 69, 107);
     margin-left: 20px;
     padding: 10px 20px;
+    min-height: 100vh;
 }
 .data-table tr{
-    border: 1px solid black;
+    border: 1px solid rgb(109, 109, 109);
+    color: #fff;
 }

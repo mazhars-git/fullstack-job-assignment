@@ -16,7 +16,9 @@ const Dashboard = () => {
                     </div>
 
                     <div className="col-md-9">
-                    
+                        <div className="data-table">
+                            <h1 className="py-5 text-center text-white">Coming Soon...........</h1>
+                        </div>
                     </div>
                 </div>
             </Container>

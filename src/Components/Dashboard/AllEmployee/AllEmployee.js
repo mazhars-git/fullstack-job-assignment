@@ -22,7 +22,7 @@ const AllEmployee = () => {
                     </div>
                     <div className="col-md-9 m-0 p-0">
                        <div className="data-table">
-                            <h2 className="text-center text-white pt-4">All Employess</h2>
+                            <h2 className="text-center text-white py-3">All Employess</h2>
                             <table className="table">
                                 <thead>
                                     <tr>

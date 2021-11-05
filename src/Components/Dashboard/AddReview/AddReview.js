@@ -14,7 +14,7 @@ const AddReview = () => {
                     <div className="container data-table">
                         <div className="row">
                             <h1 className="text-white text-center">Add Your Review</h1>
-                            <form class="row g-3">
+                            <form class="row g-3 text-white">
                                 <div class="col-md-6">
                                     <label for="validationDefault01" class="form-label">First name</label>
                                     <input type="text" class="form-control" id="validationDefault01" required />

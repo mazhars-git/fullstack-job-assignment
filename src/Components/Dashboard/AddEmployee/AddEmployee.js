@@ -40,8 +40,6 @@ const AddEmployee = () => {
         })
     }
 
-    
-
     return (
         <Container fluid>
             <div className="row">
@@ -49,33 +47,33 @@ const AddEmployee = () => {
                     <Sidebar />
                 </div>
                 <div className="col-md-9">
-                <div className="container data-table">
-                        <h1 className="text-center text-white">Add Employee</h1>
-                        <div className="row">
-                            <form onSubmit={handleSubmit} class="row g-3">
-                                <div class="col-md-6">
-                                    <label for="name" class="form-label">Name</label>
-                                    <input onBlur={handleBlur} type="text" class="form-control" name="name" required />
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input onBlur={handleBlur} type="email" class="form-control" name="email" required />
-                                </div>
-                                <div class="col-md-3">
-                                    <label for="phone" class="form-label">Phone Number</label>
-                                    <input onBlur={handleBlur} type="number" class="form-control" name="phone" required />
-                                </div>
-                                <div class="col-6">
-                                    <label for="file" class="form-label">Upload Image</label>
-                                    <input onChange={handleChange} type="file" class="form-control" aria-label="file example" required />
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary" type="submit">Add Employee</button>
-                                </div>
-                            </form>
+                    <div className="container data-table text-white">
+                            <h1 className="text-center text-white">Add Employee</h1>
+                            <div className="row">
+                                <form onSubmit={handleSubmit} class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input onBlur={handleBlur} type="text" class="form-control" name="name" required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input onBlur={handleBlur} type="email" class="form-control" name="email" required />
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input onBlur={handleBlur} type="number" class="form-control" name="phone" required />
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="file" class="form-label">Upload Image</label>
+                                        <input onChange={handleChange} type="file" class="form-control" aria-label="file example" required />
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary" type="submit">Add Employee</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
         </Container>
     );
