@@ -21,9 +21,9 @@ const AddEmployee = () => {
     const handleSubmit = (e) => {
         const formData = new FormData();
         formData.append('file', fileInfo);
-        formData.append('noman', employee.name)
-        formData.append('name', employee.email)
-        formData.append('mobile', employee.phone)
+        formData.append('name', employee.name)
+        formData.append('email', employee.email)
+        formData.append('phone', employee.phone)
 
 
         fetch('http://localhost:4000/addEmployee', {
