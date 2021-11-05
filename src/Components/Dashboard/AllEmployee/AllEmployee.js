@@ -29,7 +29,9 @@ const AllEmployee = () => {
 
     const [employees, setEmployees] = useState([]);
     useEffect(() => {
-        setEmployees(data);
+        fetch('http://localhost:4000/employees')
+        .then(res => res.json())
+        .then(data => setEmployees(data))
     },[])
 
     return (
