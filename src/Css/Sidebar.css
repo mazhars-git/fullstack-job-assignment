@@ -14,10 +14,14 @@
     margin: 10px 0;
     padding: 10px;
     background: rgb(65, 45, 45);
+    transition-duration: 0.4s;
   }
   .sidebar ul li a{
     text-decoration: none;
     color: #fff;
+  }
+  .sidebar ul li:hover a{
+    color: rgb(255, 72, 0);
   }
 
   .back-btn a{
