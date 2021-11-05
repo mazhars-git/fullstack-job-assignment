@@ -26,7 +26,7 @@ const AddEmployee = () => {
         formData.append('phone', employee.phone)
 
 
-        fetch('http://localhost:4000/addEmployee', {
+        fetch('https://arcane-spire-36173.herokuapp.com/addEmployee', {
 
             method: 'POST',
             body: formData

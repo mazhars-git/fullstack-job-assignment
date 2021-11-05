@@ -8,7 +8,7 @@ const AllEmployee = () => {
 
     const [employees, setEmployees] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:4000/employees')
+        fetch('https://arcane-spire-36173.herokuapp.com/employees')
         .then(res => res.json())
         .then(data => setEmployees(data))
     },[])
